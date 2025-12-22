@@ -24,7 +24,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="p-4 lg:p-5 border-b border-gray-200">
+        <nav className="p-4 lg:p-5 border-b border-gray-200 bg-white">
             <div className="flex flex-row justify-between gap-10">
 
                 <div className="flex flex-row gap-10">
@@ -65,9 +65,9 @@ const Navbar = () => {
 
 
 
-
+            {/* Mobile Menu */}
             {isOpen && (
-                <div className="lg:hidden mt-4 p-4 rounded-xl gap-4">
+                <div className="lg:hidden mt-4 p-4 rounded-xl gap-4 bg-muted">
                     <div>
                         {items.map((item) => (
                             <a href="#" key={item.title} className="block text-base border-b border-gray-300 p-4">{item.title}</a>
