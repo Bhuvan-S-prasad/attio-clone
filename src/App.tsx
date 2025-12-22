@@ -5,10 +5,9 @@ function App() {
 
   return (
     <>
-    <div>
-      <Navbar />
-    </div>
-
+      <div className="position fixed top-0 left-0 right-0">
+        <Navbar />
+      </div>
     </>
   )
 }
