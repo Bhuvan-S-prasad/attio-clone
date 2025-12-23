@@ -33,10 +33,7 @@ const Hero = () => {
                     <img src="src/assets/hero.png" alt="hero" />
                 </div>
 
-
             </div>
-
-
 
 
         </div>

@@ -1,5 +1,6 @@
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
+import LogoWall from "./components/LogoWall"
 
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
       </div>
       <div>
         <Hero />
+      </div>
+      <div className="my-20">
+        <LogoWall />
       </div>
     </>
   )
