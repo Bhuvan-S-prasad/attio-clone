@@ -1,6 +1,7 @@
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import LogoWall from "./components/LogoWall"
+import Features from "./components/Features"
 
 
 function App() {
@@ -13,8 +14,11 @@ function App() {
       <div>
         <Hero />
       </div>
-      <div className="my-20">
+      <div className="my-20 p-5">
         <LogoWall />
+      </div>
+      <div>
+        <Features />
       </div>
     </>
   )
