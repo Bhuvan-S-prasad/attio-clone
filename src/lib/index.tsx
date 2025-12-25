@@ -84,3 +84,23 @@ export const feat = [
         icon: <ChartArea />
     },
 ];
+
+
+export const certifi = [
+    {
+        title: "ccpa",
+        path: "src/assets/certificates/ccpa.png"
+    },
+    {
+        title: "gdpr",
+        path: "src/assets/certificates/gdpr.png"
+    },
+    {
+        title: "iso9001",
+        path: "src/assets/certificates/iso9001.png"
+    },
+    {
+        title: "iso27001",
+        path: "src/assets/certificates/iso27001.png"
+    },
+]

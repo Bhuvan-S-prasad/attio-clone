@@ -30,8 +30,8 @@ const BentoGrid = () => {
                 <div className="p-5 lg:p-10">
                   <h3 className="text-gray-700"><span className="font-semibold">Always Connected to your data.</span> Continually sync your products, billing, and relationships data into your workspace.</h3>
                 </div>
-                <div className="pt-6 lg:pt-10 lg:pb-0 w-[90%] lg:w-[150%]">
-                  <img src="src/assets/bento-grid/bento-grid-1.png" alt="pfp" className="left-0 lg:right-0 bottom-0 mb-0 pb-0rounded-xl rounded-br-none lg:rounded-bl-none lg:rounded-br-xl border border-gray-200 shadow-2xl" />
+                <div className="pt-6 lg:pt-10 w-[90%]">
+                  <img src="src/assets/bento-grid/bento-grid-1.png" alt="pfp" className="left-0 lg:right-0 bottom-0 mb-0 lg:items-end lg:w-full lg:justify-end rounded-xl rounded-br-none lg:rounded-bl-none lg:rounded-br-xl border border-gray-200 shadow-2xl" />
                 </div>
 
               </div>

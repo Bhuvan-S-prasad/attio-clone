@@ -4,11 +4,7 @@ const Features = () => {
     return (
 
         <div className="p-10 lg:p-30 flex flex-col">
-
-
             <div className="flex flex-col">
-
-
                 <div className="flex flex-col gap-5 w-full lg:w-[30%]">
                     <div className="flex flex-row gap-2">
                         <h1 className="text-3xl lg:text-5xl font-bold">A CRM created to be your own</h1>
@@ -29,7 +25,6 @@ const Features = () => {
                                 <p className="text-muted-foreground">{feature.description}</p>
                             </div>
                         ))}
-
 
                     </div>
 
