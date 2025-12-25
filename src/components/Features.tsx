@@ -1,36 +1,4 @@
-import { ChartArea, Layers, LayoutDashboard, Sparkles } from "lucide-react"
-
-const feat = [
-    {
-        title: "Build",
-        description:
-            "Create your dream CRM with powerful, flexible templates for every use case.",
-        image: "src/assets/feature1.png",
-        icon: <LayoutDashboard />
-    },
-    {
-        title: "Refine",
-        description:
-            "Use intuitive UI and ultra-customizable blocks to craft ideal workflows.",
-        image: "src/assets/feature1.png",
-        icon: <Layers />
-    },
-    {
-        title: "Work",
-        description:
-            "Help your business Scale with enriched data, custom attributes, and integrations.",
-        image: "src/assets/feature1.png",
-        icon: <Sparkles />
-    },
-    {
-        title: "Report",
-        description:
-            "Analyze, track, and share reports built on real-time data from across your workspace",
-        image: "src/assets/feature1.png",
-        icon: <ChartArea />
-    },
-];
-
+import { feat } from "../lib"
 
 const Features = () => {
     return (

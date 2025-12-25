@@ -2,7 +2,7 @@
 const BentoGrid = () => {
   return (
     <>
-      <div className="p-10 lg:p-30 lg:pb-0 flex flex-col">
+      <div className="p-10 lg:p-30 flex flex-col">
 
 
         <div className="flex flex-col">

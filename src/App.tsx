@@ -23,11 +23,20 @@ function App() {
         <Features />
       </div>
       <div>
-        <TestimonyCard />
+        <TestimonyCard
+          image="src/assets/profile/profile-1.png"
+          quote="My team loves Attio's reporting system because it's so dynamic. We can splice our data in so many different  ways and combination"
+          name="DeGrasse Schrader"
+          position="chief of staff, Pallet" />
       </div>
       <div>
         <BentoGrid />
       </div>
+      <TestimonyCard
+        image="src/assets/profile/profile-1.png"
+        quote="Attio is an incredibley flexible product, you can build anything on it. it gives you the tools you need to build a CRM that's exactly right to your business. your data and your process"
+        name="Flip Mark"
+        position="chief of staff, Passionfroot" />
     </>
   )
 }
