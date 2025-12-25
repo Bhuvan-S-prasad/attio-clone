@@ -2,6 +2,8 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import LogoWall from "./components/LogoWall"
 import Features from "./components/Features"
+import TestimonyCard from "./components/TestimonyCard"
+import BentoGrid from "./components/BentoGrid"
 
 
 function App() {
@@ -19,6 +21,12 @@ function App() {
       </div>
       <div>
         <Features />
+      </div>
+      <div>
+        <TestimonyCard />
+      </div>
+      <div>
+        <BentoGrid />
       </div>
     </>
   )

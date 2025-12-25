@@ -1,4 +1,4 @@
-import { ChartArea, Layers, LayoutDashboard, Menu, Sparkles } from "lucide-react"
+import { ChartArea, Layers, LayoutDashboard, Sparkles } from "lucide-react"
 
 const feat = [
     {
