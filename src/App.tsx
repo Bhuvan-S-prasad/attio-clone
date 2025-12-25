@@ -6,6 +6,7 @@ import TestimonyCard from "./components/TestimonyCard"
 import BentoGrid from "./components/BentoGrid"
 import BentoGrid2 from "./components/BentoGrid2"
 import Certificate from "./components/Certificate"
+import More from "./components/More"
 
 
 function App() {
@@ -54,6 +55,9 @@ function App() {
       </div>
       <div className="m-5">
         <Certificate />
+      </div>
+      <div>
+        <More />
       </div>
     </>
   )

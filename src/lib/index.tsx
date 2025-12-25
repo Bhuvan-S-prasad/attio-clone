@@ -104,3 +104,37 @@ export const certifi = [
         path: "src/assets/certificates/iso27001.png"
     },
 ]
+
+
+export const MoreGrid = [
+    {
+        image: "src/assets/more-grid/more-grid-1.png",
+        title: "Quick Actions",
+        description: "Streamline your workflow with customizable shortcuts."
+    },
+    {
+        image: "src/assets/more-grid/more-grid-2.png",
+        title: "Automatic Enrichment",
+        description: "update your contacts with latest information on autopilot."
+    },
+    {
+        image: "src/assets/more-grid/more-grid-3.png",
+        title: "Chrome extension",
+        description: "Stay lean with Attio's lightweight browser extension."
+    },
+    {
+        image: "src/assets/more-grid/more-grid-4.png",
+        title: "Contact analysis",
+        description: "Get deeper insights into your contacts at a signle glance."
+    },
+    {
+        image: "src/assets/more-grid/more-grid-5.png",
+        title: "Filters",
+        description: "Streamline your workflow with customizable shortcuts."
+    },
+    {
+        image: "src/assets/more-grid/more-grid-6.png",
+        title: "Tiered sorting",
+        description: "Update your contacts with latest information on autopilot."
+    },
+]
