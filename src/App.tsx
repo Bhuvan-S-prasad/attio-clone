@@ -7,6 +7,7 @@ import BentoGrid from "./components/BentoGrid"
 import BentoGrid2 from "./components/BentoGrid2"
 import Certificate from "./components/Certificate"
 import More from "./components/More"
+import Ask from "./components/Ask"
 
 
 function App() {
@@ -58,6 +59,9 @@ function App() {
       </div>
       <div>
         <More />
+      </div>
+      <div>
+        <Ask />
       </div>
     </>
   )

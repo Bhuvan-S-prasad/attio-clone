@@ -55,6 +55,10 @@
   --spacing: 0.25rem;
   --more: rgb(34, 37, 41);
   --more-foreground: rgb(39, 42, 46);
+  --ask: rgb(38, 109, 240);
+  --ask-button: rgb(92, 145, 244);
+  --ask-text: rgb(173, 200, 249);
+  --ask-border: rgb(120, 164, 246);
 }
 
 .dark {
@@ -161,7 +165,11 @@
   --shadow-lg: var(--shadow-lg);
   --shadow-xl: var(--shadow-xl);
   --shadow-2xl: var(--shadow-2xl);
-  
+
   --color-more: var(--more);
   --color-more-foreground: var(--more-foreground);
+  --color-ask: var(--ask);
+  --color-ask-button: var(--ask-button);
+  --color-ask-text: var(--ask-text);
+  --color-ask-border: var(--ask-border);
 }

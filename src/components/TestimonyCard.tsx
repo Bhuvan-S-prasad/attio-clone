@@ -5,7 +5,7 @@ interface TestiomonyProps {
   position: string;
 }
 
-const  TestimonyCard = ({
+const TestimonyCard = ({
   image,
   quote,
   name,
