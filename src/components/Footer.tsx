@@ -3,14 +3,14 @@ import { ChevronDown, Dot, Linkedin, Twitter, Volleyball } from "lucide-react"
 const Footer = () => {
     return (
         <footer className="bg-footer">
-            <div className="hidden md:hidden lg:block">
-                <div className="lg:py-20 lg:px-30">
+            <div className="hidden md:block">
+                <div className="py-10 px-10 xl:py-20 xl:px-30">
 
                     <div>
                         <img src="src/assets/logo/attio_logo-light.png" alt="attio" className="w-30" />
                     </div>
 
-                    <div className="pt-5 flex flex-row gap-35">
+                    <div className="pt-5 flex flex-row flex-wrap xl:flex-nowrap gap-10 xl:gap-35 justify-between xl:justify-start">
 
                         <div className="flex flex-col gap-3 text-footer-text">
                             <h3 className="text-footer-title">Product</h3>
@@ -73,7 +73,7 @@ const Footer = () => {
                 </div>
 
                 <hr className="mt-20 text-footer-text w-full p-0 " />
-                <div className="lg:px-30 py-7 flex flex-row justify-between pb-15 text-sm">
+                <div className="px-10 xl:px-30 py-7 flex flex-row justify-between pb-15 text-sm">
                     <p className="text-footer-text">© 2025 Attio Ltd. All rights reserved.</p>
                     <div className="flex flex-row gap-5 text-footer-text">
                         <p><a>Terms and Conditions</a> | <a> privacy policy</a></p>
@@ -86,7 +86,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="p-5 lg:hidden">
+            <div className="p-5 md:hidden">
                 <div className="flex flex-row justify-between">
                     <img src="src/assets/logo/attio_logo-light.png" alt="attio" className="w-20" />
                     <div className="flex flex-row gap-2 text-white">
