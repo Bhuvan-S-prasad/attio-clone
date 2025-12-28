@@ -59,6 +59,11 @@
   --ask-button: rgb(92, 145, 244);
   --ask-text: rgb(173, 200, 249);
   --ask-border: rgb(120, 164, 246);
+  --footer: rgb(29, 30, 32);
+  --footer-text: rgb(85, 94, 103);
+  --footer-button: rgb(49, 55, 61);
+  --footer-title: rgb(151, 156, 161);
+
 }
 
 .dark {
@@ -172,4 +177,8 @@
   --color-ask-button: var(--ask-button);
   --color-ask-text: var(--ask-text);
   --color-ask-border: var(--ask-border);
+  --color-footer: var(--footer);
+  --color-footer-text: var(--footer-text);
+  --color-footer-button: var(--footer-button);
+  --color-footer-title: var(--footer-title);
 }
