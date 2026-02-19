@@ -64,7 +64,7 @@ attio/
 
 ## 📄 License
 
-This project is for educational purposes only. All design credit goes to [Attio](https://attio.com).
+This project is for educational purposes only. All design credit goes to [Attio](https://attio.com). Special thanks to [Naufal Irsyad](https://www.figma.com/@naufalirsyad) for the Figma designs.
 
 ---
 
