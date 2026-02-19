@@ -1,74 +1,71 @@
-# React + TypeScript + Vite
+# Attio Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend clone of [Attio's](https://attio.com) landing page — built as a side project to practice frontend development and as an appreciation for beautiful, minimalistic web design.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ About
 
-## React Compiler
+This project is a pixel-inspired recreation of Attio's clean and modern landing page. It was built purely for learning purposes — to sharpen my skills in React, TypeScript, and responsive UI design while studying how great products present themselves on the web.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧩 Components
 
-## Expanding the ESLint configuration
+| Component         | Description                                     |
+| ----------------- | ----------------------------------------------- |
+| **Navbar**        | Fixed top navigation bar                        |
+| **Hero**          | Main hero section with headline & CTA           |
+| **LogoWall**      | Trusted-by logo carousel                        |
+| **Features**      | Product feature highlights                      |
+| **BentoGrid**     | Bento-style grid layout showcasing capabilities |
+| **TestimonyCard** | Customer testimonial cards                      |
+| **Certificate**   | Trust & certification badges                    |
+| **More**          | Additional product information                  |
+| **Ask**           | FAQ / call-to-action section                    |
+| **Footer**        | Site footer with links                          |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **Framework** — [React 19](https://react.dev) with TypeScript
+- **Build Tool** — [Vite](https://vite.dev) (via Rolldown)
+- **Styling** — [Tailwind CSS v4](https://tailwindcss.com)
+- **Icons** — [Lucide React](https://lucide.dev)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 📁 Project Structure
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+attio/
+├── src/
+│   ├── assets/          # Images & static assets
+│   ├── components/      # React components
+│   │   ├── Navbar.tsx
+│   │   ├── Hero.tsx
+│   │   ├── LogoWall.tsx
+│   │   ├── Features.tsx
+│   │   ├── BentoGrid.tsx
+│   │   ├── BentoGrid2.tsx
+│   │   ├── TestimonyCard.tsx
+│   │   ├── Certificate.tsx
+│   │   ├── More.tsx
+│   │   ├── MoreBox.tsx
+│   │   ├── Ask.tsx
+│   │   └── Footer.tsx
+│   ├── lib/             # Utility functions
+│   ├── App.tsx          # Root component
+│   ├── main.tsx         # Entry point
+│   └── index.css        # Global styles
+├── index.html
+├── vite.config.ts
+├── tsconfig.json
+└── package.json
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📄 License
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+This project is for educational purposes only. All design credit goes to [Attio](https://attio.com).
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-# attio-clone
+---
+
+_Built with ☕ and curiosity._

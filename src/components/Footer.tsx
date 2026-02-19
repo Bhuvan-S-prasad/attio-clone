@@ -1,4 +1,4 @@
-import { ChevronDown, Dot, Linkedin, Twitter, Volleyball } from "lucide-react"
+import { ChevronDown, Linkedin, Twitter, Volleyball } from "lucide-react"
 
 const Footer = () => {
     return (
